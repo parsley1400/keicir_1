@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+@media screen and (max-width: 1024px){
+    
+}
+
+@media screen and (max-width: 896px){
+    
+}
+
+@media screen and (max-width: 480px){
+    .contents img{
+        width:100%;
+        height:240px;
+        object-fit:cover;
+        padding-top:70px;
+    }
+    
+    .contents h1{
+        margin:5px 10px 0;
+        font-size:30px;
+        color:#001F76;
+    }
+    
+    #writings{
+        display:flex;
+    }
+
+    .writing{
+        width:25%;
+        line-height:60px;
+        margin:10px 0;
+    }
+
+    .writing1{
+        padding-left:14px;
+    }    
+
+    .writing4{
+        padding-right:14px;
+    }    
+
+    #cells{
+        display:flex;
+        margin-top:10px;
+    }
+
+    .cell{
+        width:25%;
+        height:40px;
+        font-size:18px;
+        border:1px solid #001f76;
+        border-radius:15px 15px 0 0;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        color:#001f76;
+    }
+    
+    .article{
+        display:none;
+        width:100%;
+        overflow:hidden;
+    }
+    
+    .article1 table{
+        font-size:12px;
+        width:90%;
+        margin:10px auto;
+        border-collapse: collapse;
+    }
+    
+    .article2{
+        text-align:center;
+        background:#000;
+    }
+    
+    .article2 .koumoku{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    
+    .article2 p{
+        color:#fff;
+        font-size:14px;
+        margin:10px;
+    }
+    
+    .article2 .maru{
+        height:50px;
+        width:50px;
+        border-radius:50%;
+        color:#fff;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        margin:20px 3px;
+        font-size:36px;
+        background:red;
+    }
+    
+    .article2 .maru1{
+        background-color:#ede0b5;
+    }
+    
+    .article2 .maru2{
+        background-color:#f0db93;
+    }
+    
+    .article2 .maru3{
+        background-color:#f4db8c;
+    }
+    
+    .article2 .maru4{
+        background-color:#efcd5e;
+    }
+    
+    .article2 .maru5{
+        background-color:#efc332;
+    }
+    
+    .article2 .maru16{
+        background-color:red;
+        font-size:14px;
+    }
+    
+    .article2 .big{
+        height:60px;
+        width:60px;
+    }
+    
+    .article2 .sub{
+        width:90%;
+        margin:0 auto;
+        font-size:12px;
+    }
+    
+    .article3 .uls{
+        width:99%;
+        margin:0 auto;
+    }
+    
+    .article3 ul{
+  display: flex;
+  flex-wrap: wrap;
+        list-style-type: none;
+}
+.article3 li{
+  position: relative;
+  width: 32.7%;
+    margin:1px;
+}
+.article3 li:before{
+  content: "";
+  display: block;
+  padding-top: 100%;
+    
+}
+.article3 img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  object-fit: cover;
+}
+
+    .article4 h1{
+        font-size:22px;
+        color:#001F76;
+        padding:20px 0;
+        text-align:center;
+    }
+    
+    .article4 .news{
+        width:90%;
+        height:200px;
+        display:flex;
+        margin:0 auto;
+    }
+    
+    .article4 img{
+        width:120px;
+        height:160px;
+        object-fit:cover;
+    }
+    
+    .article4 .bunsyou{
+        width:200px;
+        height:160px;
+        margin-left:5%;
+    }
+}
+
+header{
+    height:70px;
+    width:100%;
+    background:#001F76;
+    display:flex;
+    align-items:center;
+    position:fixed;
+}
+
+header h1{
+    color:#E0CE24;
+    font-family:MyFont;
+    font-size:40px;
+    margin:0 auto;
+}
+
+@font-face {
+font-family: "MyFont";
+  src: url(font/impact.eot) format("eot"), url(font/impact.woff) format("woff");
+}
